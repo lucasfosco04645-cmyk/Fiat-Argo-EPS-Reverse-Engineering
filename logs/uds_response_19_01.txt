@@ -1,0 +1,12 @@
+Registro de resposta UDS — teste de 15/11/2026
+
+Comando reportado:
+[UDS] Consultando quantidade de DTCs (19 01)...
+
+Quadro bruto recebido:
+RAW RX [0x18DAF130]: 06 59 01 FF 00 00 13
+
+Interpretação do sketch:
+0x0013 = 19 em decimal.
+
+Nota: este registro não identifica 19 códigos DTC individuais. É necessário validar a resposta detalhada do serviço 19 02 e confirmar o significado do campo conforme a implementação da ECU.
